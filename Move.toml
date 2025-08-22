@@ -1,0 +1,16 @@
+[package]
+name = "Drug-Development-Tracking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xe17758f03cc9eee51494b8b51c7307c4f8c996e3e02030ae7e527c8cdd638b87"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
